@@ -1,0 +1,199 @@
+.home{
+    display: flex;
+    background-color: black;
+    color:white;
+    font-family: sans-serif;
+    min-height: 10rem;  
+}
+
+section{
+    padding: 50px;
+}
+.home .max-width{
+    width:100%;
+}
+
+.home .home-content .text-1{
+    font-size: 30px;
+    font-weight: 400;
+    margin-left:35rem;
+    margin-top:2rem;
+    
+    
+}
+.home .home-content .text-2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left:35rem;
+    margin-top: 2rem;
+    
+}
+.home .home-content .text-3{
+    font-size: 30px;
+    font-weight: 400;
+    margin-left:35rem;
+    margin-top: 1rem;
+    
+}
+.max-width1{
+    max-width: 1000px;
+    padding: 0;
+    margin: auto;
+}
+.table-stripped {
+ width: 100%;
+ height: 12rem;
+ font-family: 'Times New Roman';
+ font-size: x-large;
+}
+.navbar{
+    position: fixed;
+    padding: 30px ;
+    width: 100%;
+    font-family: sans-serif;
+}
+.navbar .max-width1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+    }
+    .navbar .menu li a{
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+        transition: color 0.5s ease;
+    }
+    .skills{
+        font-family: sans-serif;
+        background-color: black;
+        color: white;
+    }
+    .skills .skills-content .left .text{
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .skills .skills-content .left p{
+        text-align: justify;
+    }
+    .skills .skills-content .right .bars{ 
+        margin-bottom: 20px;
+    }
+     .skills .skills-content .right .info{
+         display: flex;
+         margin-bottom: 5px;
+         align-items: center;
+         justify-content: space-between;
+     }
+     .skills .skills-content .right span{
+         font-weight: 500;
+         font-size: 18px; 
+     }
+    .skills .skills-content .right .line{
+        height: 5px;
+        width: 100%;
+        background: lightgrey;
+        position: relative;
+    }
+    .skills .skills-content .right .line::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: crimson;
+    }
+    .skills-content .right .html::before{
+        width: 90%;
+        }
+        .skills-content .right .css::before{
+        width: 50%;
+        }
+        .skills-content .right .JAVASCRIPT::before{
+        width: 50%;
+        }
+        .skills-content .right .react::before{
+        width: 30%;
+        }
+        .contact .contact-content .row .info{
+            margin-left: 30px;
+        }
+        .contact .contact-content .row i{
+            font-size: 25px;
+            color: crimson;
+        }
+        .contact .contact-content .info .head{
+            font-weight: 500;
+            color: rosybrown;
+        }
+        .contact .contact-content .info .sub-title{
+            color:teal;
+        }
+    
+    .footer{
+        background-color: black;
+        width: 100%;
+        color: white;
+        height: auto;
+    }
+    .footer h2{
+        font-size: 18px;
+        color: white;
+        text-transform: capitalize;
+        font-weight: 500;
+        position: relative;
+        text-align: center;
+        
+    }
+    .footer .social-links{
+        padding-bottom: 25px;
+        text-align: center;
+        color: crimson;
+    }
+    
+    .footer a{
+        color: crimson;
+        text-align: center;
+        display: inline-block;
+        margin: 0 8px;
+        margin-top: 8px;
+    }
+    @media (max-width: 690px){
+        .max-width{
+            padding: 0 23px;
+           }
+           .home .home-content .text-2{
+            font-size: 60px;
+        }
+        .home .home-content .text-3{
+            font-size: 32px;
+        }
+    }
+    @media (max-width: 500px){
+        .home .home-content .text-2{
+         font-size: 50px;
+     }
+     .home .home-content .text-3{
+         font-size: 27px;
+     }
+    }
+
+    
+    
+
+
+    
+
+
+
+
+
